@@ -49,7 +49,7 @@ export default function Skills() {
             return (
               <div
                 key={index}
-                className="glass-dark dark:glass-dark p-6 rounded-xl hover:shadow-lg hover:shadow-primary/20 transition-all duration-300 group"
+                className="glass-dark dark:glass-dark p-6 rounded-xl hover:shadow-lg transition-all duration-300 group"
               >
                 <div className="flex items-center gap-3 mb-4">
                   <div className="p-2 bg-primary/20 rounded-lg group-hover:bg-primary/30 transition-colors">

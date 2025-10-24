@@ -204,7 +204,9 @@ export default function Balatro({
       cancelAnimationFrame(animationFrameId)
       window.removeEventListener("resize", resize)
       container.removeEventListener("mousemove", handleMouseMove)
-      container.removeChild(gl.canvas)
+      if (gl.canvas.parentNode === container) {
+        container.removeChild(gl.canvas)
+      }
       gl.getExtension("WEBGL_lose_context")?.loseContext()
     }
   }, [

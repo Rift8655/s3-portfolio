@@ -30,7 +30,7 @@ export default function Hero() {
         <div className="flex flex-col sm:flex-row gap-4 justify-center mb-16">
           <button
             onClick={() => scrollToSection("projects")}
-            className="px-8 py-3 bg-primary text-primary-foreground rounded-lg font-semibold hover:shadow-lg hover:shadow-primary/50 transition-all glow"
+            className="px-8 py-3 bg-primary text-primary-foreground rounded-lg font-semibold hover:shadow-lg transition-all"
           >
             View Projects
           </button>

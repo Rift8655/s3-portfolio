@@ -66,7 +66,7 @@ export default function Projects() {
           {projects.map((project, index) => (
             <div
               key={index}
-              className="glass-dark dark:glass-dark rounded-xl overflow-hidden hover:shadow-lg hover:shadow-primary/20 transition-all duration-300 group"
+              className="glass-dark dark:glass-dark rounded-xl overflow-hidden hover:shadow-lg transition-all duration-300 group"
             >
               {/* Image */}
               <div className="relative h-48 overflow-hidden">
